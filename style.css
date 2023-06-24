@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0; */
+    /* box-sizing: border-box; */
+}
+
+header {
+    /* display: flex; */
+    /* justify-content: right; */
+    background: #de5c5c;
+}
+
+
+
+
+.skill-header {
+
+    text-align: left;
+}
+
+.backgroundcolor{
+    background-color: bisque;
+}
+
+
+a {
+  color: hotpink;
+}
+
+/* body {
+    background-color:rgb(91, 56, 56) ;
+} */
+
+h2 {text-align: center;
+    padding-bottom: 15px;
+    font-style:italic;
+    color: rgb(249, 102, 102);
+
+
+}
+
+h3 {
+
+    skill-header;
+    padding-bottom: 15px;
+    color: #f2205f;
+}
