@@ -3,69 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-   <header>
-    <h1 style ="text-align: center;
-    font-style: italic;
-    color: rgb(237, 247, 221);">My portfolio
-    </h1>
-    
-     
-   </header>
-   
-
-   <p style="text-align: center;
-             margin-right: 5px;
-             padding-bottom: 10px;
-             padding-top: 10px;
-            
-              ">
-      
-      <a href="index.html">Home</a>|
-      <a href="contact.html">Contact Me</a>
-      |
-      <a href="experience.html">Experience</a>
-      |
-    
-    </p>
-    <img 
-     src="https://scontent.fbkk22-4.fna.fbcdn.net/v/t39.30808-6/291861828_1704410553253319_1608893266231958931_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFodbV0n56CvKezVmVIAv7kyFo6Dh3Q3XLIWjoOHdDdcu3rS5jW5_pTZ6rlBc5i08yeLrdkXGm5_xMXstIujG92&_nc_ohc=MN8jBKxDVuwAX-EUtR3&_nc_ht=scontent.fbkk22-4.fna&oh=00_AfA4xyFn5diL5DMuQOipDfwgPSAvMdcG-ajAFlIKMvlofA&oe=64986E51" 
-     style="margin-left: auto; 
-     display: block; 
-     margin-right: auto;
-     width: 200px"
-    
+    <title>Navbar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
     />
-    <div style="text-align: center;">
-      <p style="padding-top: 20px;
-        font-size: 120%;">My name is Tew. Hi ! Nice to meet you all.<br />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  
    
-   </p>
-  </div>>
-    
-   <h2>Contact Me</h2>
-   <div style="border:solid rgb(239, 73, 73);
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 16px;
-    margin-bottom: 8px;
-    padding-top: 15px;
-    padding-bottom: 15px;">
-    
-   <p>
-        <address>
-            <a href="mailto:apiwitboonyarit26@gmail.com">apiwitboonyarit26@gmail.com</a>
-        </address>
-
+  <body >
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><span style="color: rgb(20, 198, 198);">Apiwit </span> <span style="color: blueviolet;">Boonyarit</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html" style="color:rgb(234, 128, 179);">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html" style="color: rgb(206, 155, 247);">Gallery</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" href="experience.html" style="color: #a990db;">Experience</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link " href="contact.html" style="color: rgb(91, 91, 234);">Contact </a>
+              </li>
+            </ul>
+        
+          </div>
+        </div>
+      </nav>
+      <div class="d-flex justify-content-center align-items-center mx-auto gap-3" style="max-width: 800px">
+        
+        <div class="d-flex justify-content-center gap-4 my-4 ">
+          <div>
+            <img src="https://scontent.fbkk22-3.fna.fbcdn.net/v/t39.30808-6/291861828_1704410553253319_1608893266231958931_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFodbV0n56CvKezVmVIAv7kyFo6Dh3Q3XLIWjoOHdDdcu3rS5jW5_pTZ6rlBc5i08yeLrdkXGm5_xMXstIujG92&_nc_ohc=iT_EIQr78s4AX_eljbv&_nc_zt=23&_nc_ht=scontent.fbkk22-3.fna&oh=00_AfBWrmjROgNTvEUOZl07SHGqEj1yITFnuy2PBlIBOVsS3A&oe=64A05751"
+            width="300px" height="300px" class="rounded-circle">
+            
+          </div>
+          <div>
+            <div class="text-danger" style="font-size: 150%; font-weight: bold; ">Contact Me</div>
+            <div class="p-3 text-dark rounded-4 my-4
+            " style=" border:solid rgb(239, 73, 73);
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 16px;
+            margin-bottom: 8px;
+            padding-top: 15px;
+            padding-bottom: 15px;">
+        
+        <a href="mailto:apiwitboonyarit26@gmail.com" style="color: black;">apiwitboonyarit26@gmail.com <br></a>
+        
         Tel : 0990799259 <br />
         Line : apiwit465 <br/>
         Facebook : Apiwit boonyarit <br>
         
-   </p>
+   </p></div>
+          </div>
+          
+        </div>
+          
+      </div>
+       
+        
+  </div>
+    
+    
+   
+    
+   <
    </div>
     
     
